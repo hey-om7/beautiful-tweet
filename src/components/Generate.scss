@@ -1,0 +1,32 @@
+.theGenerateBtn{
+
+width: 100%;
+display: flex;
+align-items: center;
+justify-content: center;
+    .generateBtn{
+        background-color: #ff6347;
+        height: 10vh;
+        width: 100%;
+        margin: 10px;
+        border-radius: 20px;
+        display: flex;
+        align-items: center;
+        text-align: center;
+        justify-content: center;
+        
+        h1{
+            color: white;
+            font-size: 250%;
+            font-weight: 300;
+        }
+    }
+    .generateBtn:hover{
+        background-color: white;
+        border: #ff6347;
+        border-style: solid;
+        h1{
+            color: #ff6347;
+        }
+    }
+}
