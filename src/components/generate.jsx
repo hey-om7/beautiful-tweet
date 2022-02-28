@@ -16,7 +16,8 @@ export default function Generate() {
             alert("Empty username or description");
         } else {
             imgUrl = imgUrl + username + "/" + description;
-            saveAs(imgUrl, 'beautifulTweet.jpg') // Put your image url here.
+            // saveAs(imgUrl, 'beautifulTweet.jpg') // Put your image url here.
+            window.open(imgUrl, "_blank");
         }
 
 
